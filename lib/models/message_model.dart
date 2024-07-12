@@ -15,6 +15,8 @@ class Message {
     required this.isLiked,
     required this.unread,
   });
+
+  
 }
 
 // YOU - current user
@@ -40,10 +42,10 @@ final User mohamed = User(
   name: 'Mohamed',
   imageUrl: 'assets/images/mohamed.avif',
 );
-final User olivia = User(
+final User ola = User(
   id: 4,
-  name: 'Olivia',
-  imageUrl: 'assets/images/oli.avif',
+  name: 'Ola',
+  imageUrl: 'assets/images/ola.avif',
 );
 final User samy = User(
   id: 5,
@@ -55,14 +57,14 @@ final User sophia = User(
   name: 'Sophia',
   imageUrl: 'assets/images/soph.avif',
 );
-final User steven = User(
+final User seif = User(
   id: 7,
-  name: 'Steven',
-  imageUrl: 'assets/images/stev.avif',
+  name: 'Seif',
+  imageUrl: 'assets/images/seif.avif',
 );
 
 // FAVORITE CONTACTS
-List<User> favorites = [samy, steven, olivia, mohamed, ali];
+List<User> favorites = [samy, seif, ola, mohamed, ali];
 
 // EXAMPLE CHATS ON HOME SCREEN
 List<Message> chats = [
@@ -74,7 +76,7 @@ List<Message> chats = [
     unread: true,
   ),
   Message(
-    sender: olivia,
+    sender: ola,
     time: '4:30 PM',
     text: 'Hey, how\'s it going? What did you do today?',
     isLiked: false,
@@ -95,7 +97,7 @@ List<Message> chats = [
     unread: true,
   ),
   Message(
-    sender: steven,
+    sender: seif,
     time: '1:30 PM',
     text: 'Hey, how\'s it going? What did you do today?',
     isLiked: false,

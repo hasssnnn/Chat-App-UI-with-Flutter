@@ -8,13 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-     // title: 'Flutter Chat UI',
-      //theme: ThemeData(
-       // primaryColor: Colors.red,
-        //colorScheme:
-          //  ColorScheme.fromSwatch(accentColor: const Color(0xfffef9eb)),
-      //),
-      home:  HomeScreen(),
+      home: HomeScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

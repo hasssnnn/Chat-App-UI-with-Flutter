@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_chat_ui_tut/constants/colors.dart';
 
-class CategorySeelctorWidget extends StatefulWidget {
-  const CategorySeelctorWidget({super.key});
+class CategorySelctorWidget extends StatefulWidget {
+  const CategorySelctorWidget({super.key});
 
   @override
-  State<CategorySeelctorWidget> createState() => _CategorySeelctorWidgetState();
+  State<CategorySelctorWidget> createState() => _CategorySelctorWidgetState();
 }
 
-class _CategorySeelctorWidgetState extends State<CategorySeelctorWidget> {
+class _CategorySelctorWidgetState extends State<CategorySelctorWidget> {
   int selectedIndex = 0;
   final List<String> categories = ['Messages', 'Online', 'Groups', 'Requests'];
   @override
